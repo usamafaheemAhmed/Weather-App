@@ -28,7 +28,6 @@ import services_logo2 from "./assets/images/Services/countries.png";
 import services_logo3 from "./assets/images/Services/location-pin.png";
 
 import project1 from "./assets/images/Projects/Pos-Img.jpg";
-import project2 from "./assets/images/projects/Adviserlink-img.jpg";
 import project3 from "./assets/images/projects/Datics-Clone.jpg";
 import person_project from "./assets/images/projects/person1.png";
 
