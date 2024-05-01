@@ -21,23 +21,17 @@ import AWS from "./assets/images/Skills/amazon_aws-icon.svg";
 import Laravel from "./assets/images/Skills/Laravel.png";
 import PHP from "./assets/images/Skills/PHP.png";
 import MySQL from "./assets/images/Skills/MySQL.png";
-import python from "./assets/images/Skills/python.png";
 
 import services_logo1 from "./assets/images/Services/cityscape.png";
 import services_logo2 from "./assets/images/Services/countries.png";
 import services_logo3 from "./assets/images/Services/location-pin.png";
 
-import project1 from "./assets/images/Projects/Pos-Img.jpg";
-import project3 from "./assets/images/projects/Datics-Clone.jpg";
-import person_project from "./assets/images/projects/person1.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
 import avatar3 from "./assets/images/Testimonials/avatar3.png";
 import avatar4 from "./assets/images/Testimonials/avatar4.png";
 
-// import Hireme_person from "./assets/images/Hireme/person.png";
-// import Hireme_person2 from "./assets/images/Hireme/person2.png";
 import Hireme_person from "./assets/images/projects/person1.png";
 import Hireme_person2 from "./assets/images/projects/person2.png";
 
@@ -66,10 +60,6 @@ export const content = {
       link: "#services",
       icon: RiServiceLine,
     },
-    // {
-    //   link: "#projects",
-    //   icon: RiProjectorLine,
-    // },
     {
       link: "../AboutUs",
       icon: TbListDetails,
@@ -84,8 +74,6 @@ export const content = {
       icon: ImSearch,
       Page: true,
     },
-
-
   ],
   hero: {
     title: "Whats Your Weather Now",
@@ -223,25 +211,6 @@ export const content = {
         title: "Area",
         para: "Pinpoint local weather! Enter your area (city, zip, etc.) for up-to-date conditions.",
         logo: services_logo3,
-      },
-    ],
-  },
-  Projects: {
-    title: "Projects",
-    subtitle: "MY CREATION",
-    image: person_project,
-    project_content: [
-      {
-        title: "POS",
-        image: project1,
-      },
-      {
-        title: "Adviser link",
-        image: project2,
-      },
-      {
-        title: "Datics Clone",
-        image: project3,
       },
     ],
   },
